@@ -15,10 +15,16 @@
   transform: skewY(6deg);
   transform-origin: top right;
 }
+.container {
+  height: 100vh;
+}
 .title {
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  /* align-items: center; */
   transform: skewY(-6deg);
+  border: 1px solid black;
+  height: 100%;
 }
