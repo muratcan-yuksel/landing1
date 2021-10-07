@@ -36,6 +36,14 @@
   /* height: 100%; */
 }
 .img {
-  height: 20vh;
+  height: 30vh;
   width: 100%;
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.button {
+  margin-left: 2em;
 }
