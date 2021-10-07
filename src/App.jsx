@@ -4,7 +4,13 @@ import "./App.css";
 import "./style/style.css";
 
 function App() {
-  return <div className="back">bum</div>;
+  return (
+    <div className="background">
+      <div className="container">
+        <h1 className="title">hello world</h1>
+      </div>
+    </div>
+  );
 }
 
 export default App;
